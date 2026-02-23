@@ -1,0 +1,11 @@
+def product(a, b):
+    return a * b
+
+def  main():
+ num1 = float(input("Enter first number"))
+ num2 = float(input("Enter second number"))
+
+ result =product(num1 , num2)
+ print(result)
+  
+main()
